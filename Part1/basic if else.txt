@@ -1,0 +1,67 @@
+1)voter id 
+=>user input 
+
+2)one number max a>10 
+one number : 
+
+3)two number max a b 
+a ya b dono mey se bda konsa hey 
+---------------
+4)three number max a b c 
+
+tenno mey se konsa badha hey 
+
+5)five number max abcde
+
+6) user 
+-9 negative integer 
+5 positive integer 
+0 =zero 
+
+7) vowel and consonat 
+->a e i o u vowel 
+consonant 
+
+8)divisible 5 and 11 
+	a)num dono se divide ho jb process ho 
+	b)num kisi se bhi divide ho jb process ho
+ 
+9)uper case and lower case input by user 
+A p
+
+
+10)if the inpute is the integer then check ,check number 7 or 3 k multiple se divisible hey kya 
+
+11)number swap (two ways )
+
+12)m =you are male
+f = female 
+other 
+
+13) 
+number (WEEK DAYS)
+1 =>sunday 
+2 =>monday 
+3 =>tuesday 
+
+14 )user number 
+check number :even odd 
+
+15)
+char match 
+a =>apple 
+b :ball 
+c :cat 
+not match 
+-----------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
