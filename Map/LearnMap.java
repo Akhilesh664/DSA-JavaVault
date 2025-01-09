@@ -6,6 +6,7 @@ import java.util.TreeMap;
 
 public class LearnMap {
 
+    
     public static void main(String[] args) {
 
         // in (HashMap) it does not take care of order
