@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 public class ArrayRankTransform_1331 {
-
 	
 	
 	public static void main(String[] args) {
