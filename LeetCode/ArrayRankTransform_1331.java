@@ -3,6 +3,7 @@ package LeetCode;
 import java.util.Arrays;
 import java.util.HashMap;
 
+
 public class ArrayRankTransform_1331 {
 	
 	
