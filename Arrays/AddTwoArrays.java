@@ -6,7 +6,6 @@ package Arrays;
 public class AddTwoArrays {
 
 	
-	
 	public static void main(String[] args) {
 		
 		int[] arr = {4, 5, 2, 0};
