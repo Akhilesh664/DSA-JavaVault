@@ -2,7 +2,6 @@
 
 package Arrays;
 
-
 public class ArraySubsequences {
 	
 	static void generateSubsequences(int arr[], int n) {
