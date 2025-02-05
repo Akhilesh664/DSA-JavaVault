@@ -6,7 +6,6 @@ import java.util.HashMap;
 
 public class ArrayRankTransform_1331 {
 	
-	
 	public static void main(String[] args) {
 		
 		int[] arr = {40, 10, 20, 30};
