@@ -6,9 +6,6 @@ import java.util.LinkedList;
 import java.util.List;
 
 
-
-
-
 public class LearnArrayList {
     public static void main(String[] args) {
 
