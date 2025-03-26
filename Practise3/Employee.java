@@ -8,7 +8,6 @@ abstract class Employee{
     protected String ssn;
 
 
-
     public Employee(String name, String ssn) {
 //        super();
         this.name = name;

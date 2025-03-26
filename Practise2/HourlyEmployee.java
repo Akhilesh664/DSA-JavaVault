@@ -28,6 +28,7 @@ public class HourlyEmployee extends Employee{
         return computeGrossPay() * 0.8;
     }
 
+    @Override
     public void print(){
         super.print();
         System.out.println("Salary : " + Salary);

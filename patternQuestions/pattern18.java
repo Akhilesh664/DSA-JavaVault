@@ -12,14 +12,6 @@ package patternQuestions;
 import java.util.Scanner;
 
 public class pattern18 {
-	public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter number of levels of the pattern: ");
-        int num = scanner.nextInt();
-        generatePascalsTriangle(num);
-        
-        scanner.close();
-    }
 
     public static void generatePascalsTriangle(int n) {
         for (int i = 1; i <= n; i++) {
@@ -34,4 +26,14 @@ public class pattern18 {
             System.out.println();
         }
     }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter number of levels of the pattern: ");
+        int num = scanner.nextInt();
+        generatePascalsTriangle(num);
+
+        scanner.close();
+    }
+
 }

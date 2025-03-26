@@ -3,8 +3,8 @@
 package Practise2;
 
 public class CheckingAccount extends BankAccount{
-
     private int fee;
+
 
     public int getFee() {
         return fee;

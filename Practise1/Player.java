@@ -37,8 +37,5 @@ public class Player {
 
         var p5 = new Player("bean", 57, "china", 5000);
         p5.displayElitePlayer();
-
-
     }
-
 }

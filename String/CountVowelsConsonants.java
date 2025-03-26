@@ -1,6 +1,7 @@
 package String;
 
 public class CountVowelsConsonants {
+
     public static void main(String[] args) {
         String input = "hello World";
         int vowels = 0,consonants = 0;

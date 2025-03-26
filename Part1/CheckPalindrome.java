@@ -1,6 +1,6 @@
 package Part1;
 import java.util.Scanner;
-public class CheckPalindrome 
+public class  CheckPalindrome
 {
 	public static void main(String[] args) 
 	{
