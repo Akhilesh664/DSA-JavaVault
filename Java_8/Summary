@@ -1,0 +1,12 @@
+                    🔹 Summary of Java 8 Features
+                    -----------------------------
+*   Feature	                                Description
+    -------                                 -----------
+1)  Lambda Expressions	                    Shorter way to write anonymous functions
+2)  Functional Interfaces	                Interfaces with only one abstract method (@FunctionalInterface)
+3)  Default & Static Methods	            Add methods in interfaces without breaking old code
+4)  Stream API	                            Process collections efficiently (map(), filter(), collect())
+5)  Method References	                    Use :: instead of lambda to call methods
+6)  Optional Class	                        Avoid NullPointerException safely
+7)  Collectors	                            Convert Stream results into collections
+8)  Date & Time API	                        Modern API for dates (LocalDate, LocalTime, LocalDateTime)

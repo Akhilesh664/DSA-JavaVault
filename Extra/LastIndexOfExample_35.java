@@ -6,7 +6,7 @@ public class LastIndexOfExample_35 {
 	{
 		String str1 = "hello";
 		String str2 = "pellow";
-		String str3 = "keto";
+		String str3 = "hello";
 		String str4 = "yellow";
 		
 		System.out.println(str2.compareTo(str4));

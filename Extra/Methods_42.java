@@ -12,8 +12,7 @@ public class Methods_42 {
 	}
 
 	private void nonStaticMethods() {
-		System.out.println("Non-static method can only be called by creating object");		
-		
+		System.out.println("Non-static method can only be called by creating object");
 	}
 
 	public static void main(String[] args)
@@ -21,6 +20,5 @@ public class Methods_42 {
 		staticMethod(); //no need to give class name before function
 		Methods_42 object = new Methods_42();
 		object.nonStaticMethods();
-
 	}
 }

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 
-public class TwoSumTarget {
+public class  TwoSumTarget {
 
     public int[] twoSum(int[] arr, int target) 
     {

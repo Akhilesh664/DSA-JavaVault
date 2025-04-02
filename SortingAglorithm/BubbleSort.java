@@ -2,6 +2,9 @@
 
 package SortingAglorithm;
 
+//💡 BubbleSort: Repeatedly swaps adjacent elements if they are in the wrong order.
+//  Time Complexity: O(n²) (Worst & Average), O(n) (Best - Already Sorted).
+
 public class BubbleSort {
 	
 	public static void main(String[] args) {

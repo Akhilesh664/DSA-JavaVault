@@ -11,6 +11,7 @@ public class NestedIfElse_12
 		Scanner input = new Scanner(System.in);
 		System.out.println("Input marks scored by you");
 		marksObtained = input.nextInt();
+
 		if (marksObtained >= passingMarks) 
 		{
 			if (marksObtained > 90)

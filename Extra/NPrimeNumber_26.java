@@ -13,7 +13,6 @@ public class NPrimeNumber_26
 			System.out.println("First "+ n +" prime numbers are : ");
 			generatePrime(n);
 		}
-	
 	}
 
 	private static void generatePrime(int n) 

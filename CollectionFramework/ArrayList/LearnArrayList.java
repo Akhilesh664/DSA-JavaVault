@@ -1,10 +1,11 @@
 package ArrayList;
 
+// 💡 ArrayList is a resizable array implementation that allows fast random access (O(1)) and dynamic resizing, but insertions and deletions (except at the end) take O(n) time.
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
-
 
 
 public class LearnArrayList {

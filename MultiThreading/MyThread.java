@@ -9,6 +9,6 @@ public class MyThread extends Thread { // extending thread for using there funct
     public static void main(String[] args) {
         MyThread t1 = new MyThread();
         t1.start();  // in with start thread made and run() method calls byDefault
-//        t1.run();  // on the other hand run is simple methos in thread
+//        t1.run();  // on the other hand run is simple method in thread
     }
 }
