@@ -26,6 +26,7 @@ public class Person {
 
 		var p1 = new Person(1,"anil",23);
 		System.out.println(p1);
+		p1.Walking();
  	}
 	
 	

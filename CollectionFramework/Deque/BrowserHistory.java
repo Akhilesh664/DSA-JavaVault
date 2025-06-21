@@ -15,11 +15,12 @@ public class BrowserHistory {
         history.push("facebook4.com");
         history.push("instagram5.com");
         history.push("w3school6.com");
+        history.push("1");
 
-        System.out.println("current page: "+history.peek());
+        System.out.println("current page: "+history.peek()); // added latest one
 
         history.pop(); // Go back
-        history.pollLast(); // Go back
+        history.pollLast(); // Go back remove last and return it
 
         System.out.println("After going back, current page: " + history.peek());
         System.out.println(history);

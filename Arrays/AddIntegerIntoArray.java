@@ -20,12 +20,8 @@ public class AddIntegerIntoArray {
 				break;
 			}
 		}
-		
 		for(int num : arr) {
 			System.out.print(num +" ");
 		}
-
-			
 	}
-	
 }

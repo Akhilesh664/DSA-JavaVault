@@ -3,7 +3,6 @@
 package Arrays;
 
 public class ArraySubsequences {
-	
 	static void generateSubsequences(int arr[], int n) {
 
 		for(int num=0; num<(1<<n); num++) {
@@ -15,17 +14,12 @@ public class ArraySubsequences {
 			}
 			System.out.println();
 		}
-
 	}
-	
 
 	public static void main(String[] args) {
-		
 		int[] arr = {10, 20, 30};
 		int n = arr.length;
 		
 		generateSubsequences(arr, n);
-
 	}
-
 }

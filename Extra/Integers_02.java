@@ -25,10 +25,10 @@ public class Integers_02
 		Scanner s = new Scanner(System.in);
 		
 		int x = s.nextInt();
-		generrateInteger(x);	
+		generateInteger(x);
 	}
 	
-	private static void generrateInteger(int x) 
+	private static void generateInteger(int x)
 	{
 		for(int i=1; i<=x; i++)
 		{

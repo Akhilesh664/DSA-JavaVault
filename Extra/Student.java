@@ -28,10 +28,5 @@ public class Student extends Person{
 		Person p1 = new Person(1, "anil", 25);
 		p1.Walking();
 		System.out.println(p1);
-		
 	}
-	
-	
-	
-
 }

@@ -16,9 +16,8 @@ public class Circle {
 	
 
 	public static void main(String[] args) {
-		var circle1 = new Circle(7);
-        var circle2 = new Circle(circle1);
+		var circle1 = new Circle(7); // calling parametrized constructor
+        var circle2 = new Circle(circle1); // calling copy constructor
         System.out.println("Circle2 radius (copied from Circle1): " + circle2.radius);
-
 	}
 }

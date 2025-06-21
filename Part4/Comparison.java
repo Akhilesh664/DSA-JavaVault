@@ -10,10 +10,10 @@ public class Comparison {
     }
 
     public static void main(String[] args) {
-        Comparison.displayStatic(); // Called without an instance
+        Comparison.displayStatic(); // Called without an instance [static]
 
         Comparison obj = new Comparison();
-        obj.displayInstance(); // Requires an instance to call
+        obj.displayInstance(); // Requires an instance to call [non-static]
     }
 }
 

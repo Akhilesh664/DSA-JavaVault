@@ -12,7 +12,7 @@ public class Child extends Parent{
 		Child.show();
 
 		Parent p = new Child();
-//		p.show();// This will call Parent's show() because static methods are not overridden.
+		p.show();// This will call Parent's show() because static methods are not overridden.
 	}
 }
 

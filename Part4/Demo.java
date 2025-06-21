@@ -1,6 +1,7 @@
 package Part4;
 
 public class Demo {
+
     int nonStaticVar = 10;
 
     static void staticMethod() {

@@ -6,7 +6,6 @@ public class StringMethods_43 {
 	{
 		int n;
 		String s = "Hello Java Developer!", t = "",u = "";
-		
 		n = s.length();
 		System.out.println("length : "+n);
 		
