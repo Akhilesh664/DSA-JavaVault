@@ -4,7 +4,6 @@
 package Arrays;
 
 public class  InverseArraysValueWithIndex {
-
 	
 	public static void main(String[] args) {
 	
