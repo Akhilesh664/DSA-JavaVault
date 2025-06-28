@@ -3,6 +3,7 @@
 
 package Arrays;
 
+
 public class  InverseArraysValueWithIndex {
 
 	
