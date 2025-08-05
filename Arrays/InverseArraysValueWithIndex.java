@@ -7,6 +7,8 @@ public class  InverseArraysValueWithIndex {
 	public static void main(String[] args) {
 		int[] arr = {2,0,4,1,3};
 		int n = arr.length;
+
+
 		
 		int[] brr = new int[n] ;
 		
