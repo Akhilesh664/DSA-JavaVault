@@ -9,7 +9,6 @@ public class  InverseArraysValueWithIndex {
 		int n = arr.length;
 
 
-		
 
 		int[] brr = new int[n] ;
 		for(int i=0; i<n; i++) {
