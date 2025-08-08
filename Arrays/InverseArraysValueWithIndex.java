@@ -8,8 +8,6 @@ public class  InverseArraysValueWithIndex {
 		int[] arr = {2,0,4,1,3};
 		int n = arr.length;
 
-
-
 		int[] brr = new int[n] ;
 		for(int i=0; i<n; i++) {
 			brr[arr[i]] = i;
