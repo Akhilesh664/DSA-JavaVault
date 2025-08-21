@@ -13,7 +13,6 @@ public class  InverseArraysValueWithIndex {
 			brr[arr[i]] = i;
 		}
 
-	
 		System.out.println("Array : ");
 		for(int num : arr) System.out.print(num);
 		
