@@ -5,6 +5,8 @@ package Arrays;
 
 public class AddIntegerIntoArray {
 
+
+	
 	public static void main(String[] args) {
 		
 		int[] arr = {4,5,2,0};
