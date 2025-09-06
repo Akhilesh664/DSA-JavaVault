@@ -4,7 +4,6 @@
 package Arrays;
 
 
-
 public class AddIntegerIntoArray {
 	public static void main(String[] args) {
 
