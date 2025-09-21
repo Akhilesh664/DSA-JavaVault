@@ -10,10 +10,10 @@ public class ArmstrongNumber_27
 		int n;
 		System.out.println("enter number for check armstrong Number : ");
 		Scanner s = new Scanner(System.in);
-		
+
 		n = s.nextInt();
-		System.out.println(isArmstrongNumber(n) ? " Yes it is Armstrong Number " : " No it is not Armstrong Number ");
-		
+		System.out.println(isArmstrongNumber(n) ? " Yes it is Armstrong Number"+ n : " No it is not Armstrong Number "+ n);
+
 	}
 
 	private static boolean isArmstrongNumber(int n) 
@@ -41,7 +41,6 @@ public class ArmstrongNumber_27
 			result = result + Math.pow(remainder, nDigits);
 			orignalNumber = orignalNumber/10;
 		}
-		
 		return result == n;
 		
 	}

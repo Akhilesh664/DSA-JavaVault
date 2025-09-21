@@ -15,6 +15,10 @@ public class LambdaExpressionExample_1 {
         MathOperation add = (a, b) -> a + b;
         System.out.println("Addition: "+add.operator(5, 3));
 
+        MathOperation mul = (a, b) -> a * b;
+        System.out.println("Multiplication: "+mul.operator(5, 3));
+
+
 //        // Without (LAMBDA Expression)
 //      MathOperation add = new MathOperation() {
 //           @Override

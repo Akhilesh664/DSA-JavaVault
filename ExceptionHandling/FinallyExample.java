@@ -3,7 +3,6 @@ package ExceptionHandling;
 public class FinallyExample {
 
     public static void main(String[] args) {
-
         try {
             int num = 5 / 0;
         }catch (ArithmeticException e){

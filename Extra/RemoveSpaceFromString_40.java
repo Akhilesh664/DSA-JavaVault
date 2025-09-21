@@ -6,6 +6,7 @@ public class RemoveSpaceFromString_40 {
 	{
 		String str = "    hello world     ";
 //		System.out.println(str+"meta");
+
 		System.out.println(str.trim()+" meta\n");
 		
 		String str1 = "hello my dear user";

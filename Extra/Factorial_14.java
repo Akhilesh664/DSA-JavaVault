@@ -1,3 +1,5 @@
+package Extra;
+
 import java.util.Scanner;
 
 public class Factorial_14 
@@ -11,8 +13,9 @@ public class Factorial_14
 		
 		n = s.nextInt();
 		
-		Factorial_14 factorialCalc = new Factorial_14(); 
+		Factorial_14 factorialCalc = new Factorial_14();
 		factorialCalc.factorial( n );
+
 		
 	}
 

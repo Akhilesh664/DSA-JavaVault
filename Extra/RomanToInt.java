@@ -5,7 +5,7 @@ public class RomanToInt
 {
 	public static void main(String[] args) 
 	{
-		System.out.println("enter the string for convertion : ");
+		System.out.println("enter the string for conversation : ");
 		Scanner s = new Scanner(System.in);
 		
 		String str = s.next().toUpperCase();

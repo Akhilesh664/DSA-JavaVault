@@ -8,7 +8,7 @@ public class Methods_42 {
 	}
 
 	private static void staticMethod() {
-		System.out.println("static method can be called without creating object");		
+		System.out.println("static method can be called without creating object");
 	}
 
 	private void nonStaticMethods() {
@@ -17,7 +17,7 @@ public class Methods_42 {
 
 	public static void main(String[] args)
 	{
-		staticMethod(); //no need to give class name before function
+		Methods_42.staticMethod(); // or staticMethod();   //no need to give class name before function
 		Methods_42 object = new Methods_42();
 		object.nonStaticMethods();
 	}

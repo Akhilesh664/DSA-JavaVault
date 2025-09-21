@@ -34,17 +34,13 @@ public class AnagramCheck {
         if (str1.length() != str2.length()) {
             return false;
         }
-
         // hashmap creation named hmap1
         HashMap<Character, Integer> hmap1 = new HashMap<>();
-
         char[] arr1 = str1.toCharArray();
-
         // Mapping first string
         for (char c : arr1) {
             hmap1.put(c, hmap1.getOrDefault(c, 0) + 1);
         }
-
         // Removing characters of second string from hashmap
         for (char c : str2.toCharArray()) {
             if (!hmap1.containsKey(c)) {
@@ -57,7 +53,6 @@ public class AnagramCheck {
                 hmap1.put(c, count - 1); // Decrement count otherwise
             }
         }
-
         // If hashmap is empty, strings are anagrams
         return hmap1.isEmpty();
     }

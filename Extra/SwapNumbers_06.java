@@ -2,10 +2,9 @@
 package Extra;
 import java.util.Scanner;
 
-public class SwapNumbers_06 
-{
-	public static void main (String[] args) 
-	{
+public class SwapNumbers_06 {
+
+	public static void main (String[] args) {
 		Scanner s = new Scanner(System.in);
 
 		System.out.println("Enter 1st no. for swaping : ");
@@ -18,8 +17,7 @@ public class SwapNumbers_06
 		swaping(x,y);
 	}
 
-	private static void swaping(int x, int y) 
-	{
+	private static void swaping(int x, int y) {
 		int temp = x;
 		x = y;
 		y = temp;

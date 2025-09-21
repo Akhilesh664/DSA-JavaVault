@@ -1,5 +1,10 @@
 package String;
 
+// Given a string s, find the first non-repeating character and return its index. If there is no unique character, return -1.
+// Input: s = "loveleetcode"
+// Output: 2 // 'v' is the first non-repeating character
+// by using frq array freq[256]
+
 public class FirstNonRepeatingCharInString {
     public static void main(String[] args) {
         // Test firstNonRepeatingChar
@@ -10,9 +15,11 @@ public class FirstNonRepeatingCharInString {
 
     public static char firstNonRepeatingChar(String str) {
         int[] freq = new int[256]; // ASCII size by default array initialised by 0 so it get increase by 1 when ch again comes
+
         for (char ch : str.toCharArray()){
             freq[ch]++;
         }
+
         // return first ch value by traversing freq array
         for (char ch : str.toCharArray()) {
             if (freq[ch] == 1) {

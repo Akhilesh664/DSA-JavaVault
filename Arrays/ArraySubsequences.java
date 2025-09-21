@@ -4,7 +4,6 @@ package Arrays;
 
 public class ArraySubsequences {
 	static void generateSubsequences(int arr[], int n) {
-
 		for(int num=0; num<(1<<n); num++) {
 			for(int k=0; k<n; k++) {
 				if(((num >> k) & 1) == 1) {

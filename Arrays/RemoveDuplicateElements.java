@@ -14,7 +14,7 @@ public class RemoveDuplicateElements {
 //		Arrays.sort(arr); // ****if array is not sorted ; [ n_log(n) complexity if comment out ]
 		
 		int idx = 1;
-		for(int i = 1; i< n; i++) {
+		for(int i = 1; i < n; i++) {
 			if(arr[i] != arr[i-1]) {
 				arr[idx] = arr[i];
 				idx++;

@@ -4,12 +4,6 @@
 package Arrays;
 
 public class AddTwoArrays {
-<<<<<<< HEAD
-
-
-	
-=======
->>>>>>> c633e05 (new file uploaded)
 	public static void main(String[] args) {
 		
 		int[] arr = {4, 5, 2, 0};

@@ -30,6 +30,4 @@ public class FindUnionAndIntersection {
         System.out.println("Intersection: " + intersection);
     }
 
-
-
 }

@@ -1,3 +1,6 @@
+package Extra;
+
+
 import java.util.Scanner;
 
 public class Condition_10 
@@ -14,8 +17,7 @@ public class Condition_10
 		if(learning) 
 		{
 			System.out.println("java programmer");
-		}
-		else
+		} else
 		{
 			System.out.println("what are you doing here?");
 		}	

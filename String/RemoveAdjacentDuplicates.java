@@ -5,7 +5,7 @@ public class RemoveAdjacentDuplicates {
 
     public static void main(String[] args) {
         // Test removeAdjacentDuplicates
-        String duplicateInput = "abbaca";
+        String duplicateInput = "abbbaca";
         System.out.println("After removing adjacent duplicates: " + removeAdjacentDuplicates(duplicateInput));
 
     }

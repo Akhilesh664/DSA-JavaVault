@@ -6,11 +6,11 @@ public class LongestCommonPrefix {
 
         // Test longestCommonPrefix
         String[] prefixInput = {"flower", "flow", "flight"};
-        System.out.println("Longest Common Prefix: " + longestCommonPrefixfunction(prefixInput));
+        System.out.println("Longest Common Prefix: " + longestCommonPrefixFunction(prefixInput));
 
     }
 
-    public static String longestCommonPrefixfunction(String[] strs) {
+    public static String longestCommonPrefixFunction(String[] strs) {
 
         if(strs == null || strs.length ==  0){
             return "";

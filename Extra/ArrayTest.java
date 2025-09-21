@@ -1,10 +1,11 @@
+package Extra;
+
 import java.util.Scanner;
 
 public class ArrayTest {
 	
 	public static void main(String[] args) {
-		
-		
+
 		// making array
 		System.out.println("enter the size of array : ");
 		Scanner s = new Scanner(System.in);

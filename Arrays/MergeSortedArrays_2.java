@@ -34,7 +34,7 @@ public class MergeSortedArrays_2 {
 		int j = m-1;
 		int k = m+n-1;
 		
-	
+
 		while(i >= 0 && j >= 0) {
 			if(arr[i] > brr[j]) {
 				arr[k] = arr[i];

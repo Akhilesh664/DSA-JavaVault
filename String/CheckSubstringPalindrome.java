@@ -3,7 +3,7 @@ package String;
 public class CheckSubstringPalindrome {
 
     // Method to check if a string is a palindrome
-    public static boolean checksubstringpalin(String str) {
+    public static boolean checkSubstringPalindrome(String str) {
         int i = 0;
         int j = str.length() - 1;
 
@@ -29,7 +29,7 @@ public class CheckSubstringPalindrome {
                 // Extract the substring starting at index i and ending at index j
                 String subString = str.substring(i, j + 1);
                 // Check if the substring is a palindrome
-                if (checksubstringpalin(subString)) {
+                if (checkSubstringPalindrome(subString)) {
                     System.out.println(subString); // Print the substring
                 }
             }

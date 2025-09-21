@@ -17,7 +17,7 @@ public class MergeSortedArrays {
 		int j = 0;
 		int k = 0;
 		
-		int crr[] = new int[n+m];
+		int[] crr = new int[n+m];
 		
 		while(i < m && j < n) {
 			if(arr[i] < brr[j]) {

@@ -1,3 +1,6 @@
+package Extra;
+
+
 import java.util.Scanner;
 
 public class FahrenheitToCelsius_05 
@@ -11,7 +14,7 @@ public class FahrenheitToCelsius_05
 		
 		float f = s.nextFloat();
 		
-		System.out.println("Temperature in celsiusff : "+fConvertC(f));
+		System.out.println("Temperature in celsius : "+fConvertC(f));
 
 	}
 
