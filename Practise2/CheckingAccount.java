@@ -5,15 +5,12 @@ package Practise2;
 public class CheckingAccount extends BankAccount{
     private int fee;
 
-
     public int getFee() {
         return fee;
     }
-
     public void setFee(int fee) {
         this.fee = fee;
     }
-
     void DeductFee(){
         setTotalBalance(getTotalBalance()-fee);
     }

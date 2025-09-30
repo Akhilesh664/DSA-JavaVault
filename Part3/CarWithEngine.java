@@ -19,7 +19,6 @@ public class CarWithEngine {
 	public static void main(String[] args) {
 		Engine engine = new Engine("turbo", 600);
 		CarWithEngine car1 = new CarWithEngine("EP2017",engine);
-		
 		car1.displayEngineDetails();
 		
 	}

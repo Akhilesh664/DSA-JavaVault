@@ -20,7 +20,6 @@ public class FunctionExamples {
     public void print(String value) {
         System.out.println(value);
     }
-
     public void print(int value) {
         System.out.println(value);
     }
@@ -34,11 +33,9 @@ public class FunctionExamples {
     public void greet() {
         System.out.println("Hello, Guest!");
     }
-
     public void greet(String name) {
         System.out.println("Hello, " + name + "!");
     }
-
     public void greet(String name, String message) {
         System.out.println(message + ", " + name + "!");
     }

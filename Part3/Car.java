@@ -18,7 +18,6 @@ public class Car {
 		return "Car [make=" + make + ", model=" + model + ", year=" + year + "]";
 	}
 
-
 	void disp() {
 		System.out.println(make +" "+ model +" "+year);
 	}

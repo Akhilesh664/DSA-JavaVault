@@ -1,8 +1,8 @@
 package Part3;
 
 public class Book {
+
 	String title;
-	
     Author author; // taking object
 
     Book(String title, Author author) {
