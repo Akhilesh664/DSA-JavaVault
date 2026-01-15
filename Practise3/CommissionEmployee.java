@@ -1,5 +1,5 @@
 // 6th cdac java assignment 3
-
+// Extends Employee. Represents an employee paid by commission. Used by Company and Payroll
 package Practise3;
 
 public class CommissionEmployee extends Employee{

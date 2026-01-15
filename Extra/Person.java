@@ -7,7 +7,7 @@ public class Person {
 	int age;
 	
 	public void Walking(){
-		System.out.println("person is walking");		
+		System.out.println("person is walking");
 	}
 	
 	public Person(int id, String name, int age) {
@@ -16,9 +16,9 @@ public class Person {
 		this.age = age;
 	}
 
-
 	@Override
-	public String toString() {
+	public String toString()
+	{
 		return "Person [id=" + id + ", name=" + name + ", age=" + age + "]";
 	}
 	

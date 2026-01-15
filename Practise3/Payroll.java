@@ -1,5 +1,5 @@
 // 6th cdac java assignment 3
-
+// Processes salary payments for an array of Employee objects. Used by Company
 package Practise3;
 
 public class Payroll {

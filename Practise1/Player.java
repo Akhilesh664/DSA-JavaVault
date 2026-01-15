@@ -1,5 +1,19 @@
 package Practise1;
 
+/**
+ * Player.java
+ * 
+ * This class represents a Cricket Player with statistics and display functionality.
+ * It demonstrates object-oriented programming concepts like encapsulation and methods.
+ * 
+ * This is a standalone class in the Practise1 package and doesn't have any direct
+ * relationships with other classes in the package.
+ * 
+ * Features:
+ * - Tracks player details: name, age, country, and total runs
+ * - Provides method to display elite players (those with 5000+ runs)
+ * - Includes a main method with sample player data for demonstration
+ */
 public class Player {
     String name;
     int age;

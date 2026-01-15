@@ -11,7 +11,8 @@ public class CollectorsExample_7 {
     public static void main(String[] args) {
         List<String> names = Arrays.asList("Java", "Python", "Java", "C++");
 
-        Set<String> uniqueNames = names.stream()
+        Set<String> uniqueNames = names
+                .stream()
                 .collect(Collectors.toSet());
 
         System.out.println("Unique Names: "+uniqueNames);

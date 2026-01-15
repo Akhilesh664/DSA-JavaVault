@@ -1,5 +1,4 @@
-package LinkedHashSet;
-
+package CollectionFramework.LinkedHashSet;
 // 💡 LinkedHashSet maintains insertion order while preventing duplicates, offering O(1) time complexity for basic operations.
 
 import java.util.Arrays;

@@ -1,5 +1,6 @@
 package Practise3;
 
+// Implements CreditCard interface. Used by CreditCardMain to demonstrate payment processing
 public class BankAccount implements CreditCard{
 
     private double balance;

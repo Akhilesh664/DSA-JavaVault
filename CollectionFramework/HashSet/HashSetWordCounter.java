@@ -1,4 +1,4 @@
-package HashSet;
+package CollectionFramework.HashSet;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -8,7 +8,7 @@ public class HashSetWordCounter {
     public static void main(String[] args) {
 
         String sentence = "Java is awesome and Java is powerful";
-        String[] words = sentence.split(" ");
+        String[] words = sentence.trim().split(" ");
 
         Set<String> uniqueWords = new HashSet<>(Arrays.asList(words));
 

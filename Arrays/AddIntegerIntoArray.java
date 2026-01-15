@@ -18,6 +18,8 @@ public class AddIntegerIntoArray {
 			arr[i] = sum%10;
 			k = sum/10;
 
+			System.out.println(k);
+
 			if(k == 0) {
 				break;
 			}

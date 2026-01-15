@@ -21,7 +21,6 @@ public class TransposeAMatrix
 		}
 			
 		int transpose[][] = new int[n][m];
-		
 		for ( c = 0 ; c < m ; c++ )
 		{
 			for ( d = 0 ; d < n ; d++ ) {

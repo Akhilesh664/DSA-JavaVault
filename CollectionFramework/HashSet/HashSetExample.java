@@ -1,4 +1,4 @@
-package HashSet;
+package CollectionFramework.HashSet;
 
 //💡 HashSet is an unordered collection that does not allow duplicate values and provides constant-time
 //💡 performance (O(1)) for operations like add, remove, and contains.
@@ -14,6 +14,7 @@ public class HashSetExample {
         for(int num : numbers){
             uniqueNumbers.add(num);
         }
+
         System.out.println("Unique Number: "+uniqueNumbers);
     }
 }

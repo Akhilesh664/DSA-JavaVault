@@ -1,4 +1,5 @@
-package ArrayList;
+package CollectionFramework.ArrayList;
+
 
 // 💡 ArrayList is a resizable array implementation that allows fast random access (O(1)) and dynamic resizing, but insertions and deletions (except at the end) take O(n) time.
 

@@ -1,5 +1,5 @@
 // 1st cdac java 2 assignment
-
+// Extends BankAccount. Represents a savings account with interest
 package Practise2;
 
 public class SavingAccount extends BankAccount {
@@ -23,10 +23,6 @@ public class SavingAccount extends BankAccount {
         setTotalBalance(interest + principal);
 
     }
-
-
-
-
 
     public static void main(String[] args) {
         var sa = new SavingAccount();

@@ -35,13 +35,13 @@ public class EvenOddFinder {
 //
 //         List<Integer> evens = Arrays.stream(arr)
 //                 .filter(n -> n%2 == 0)
-//                 .boxed()
+//                 .boxed()                     // converting int to Integer
 //                 .collect(Collectors.toList());
 //
 //
 //        List<Integer> odds = Arrays.stream(arr)
 //                .filter(n -> n%2 != 0)
-//                .boxed()
+//                .boxed()                      // converting int to Integer
 //                .collect(Collectors.toList());
 //
 //        System.out.println("even:"+ evens);
@@ -52,14 +52,14 @@ public class EvenOddFinder {
 
 
     // 3 Way.
-    public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 5, 6, 7, 8, 12, 13, 14, 17, 18, 19, 25};
-
-        int[] evens = Arrays.stream(arr).filter(n -> n % 2 == 0).toArray();
-        int[] odds = Arrays.stream(arr).filter(n -> n % 2 != 0).toArray();
-
-        System.out.println("even:"+ Arrays.toString(evens));
-        System.out.println("odd:"+ Arrays.toString(odds));
-    }
+//    public static void main(String[] args) {
+//        int[] arr = {1, 2, 3, 5, 6, 7, 8, 12, 13, 14, 17, 18, 19, 25};
+//
+//        int[] evens = Arrays.stream(arr).filter(n -> n % 2 == 0).toArray();
+//        int[] odds = Arrays.stream(arr).filter(n -> n % 2 != 0).toArray();
+//
+//        System.out.println("even:"+ Arrays.toString(evens));
+//        System.out.println("odd:"+ Arrays.toString(odds));
+//    }
 
 }

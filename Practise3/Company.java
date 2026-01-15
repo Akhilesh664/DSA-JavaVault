@@ -1,5 +1,5 @@
 // 6th cdac java assignment 3
-
+// Demonstrates the Employee hierarchy and Payroll system. Uses all Employee subclasses
 package Practise3;
 
 public class Company {

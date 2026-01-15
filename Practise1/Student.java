@@ -1,5 +1,18 @@
 package Practise1;
 
+/**
+ * Student.java
+ * 
+ * This class represents a Student entity with basic information and operations.
+ * It demonstrates class structure, methods, and basic control flow in Java.
+ * 
+ * This is a standalone class in the Practise1 package and doesn't have any direct
+ * relationships with other classes in the package.
+ * 
+ * Features:
+ * - Stores student ID, name, marks, and result
+ * - Provides methods to read data, compute results, and display student information
+ */
 public class Student {
     // Data members
     int id;
@@ -43,20 +56,16 @@ void showData() {
 
         // Initialize student data
         student.readData(1, "John Doe", 75);
-
         // Calculate the result
         student.computeResult();
-
         // Display the student details
         student.showData();
 
-//        student.readData(2, "anil", 23); // Will update same object
-//
-//        // Calculate the result
-//        student.computeResult();
-//
-//        // Display the student details
-//        student.showData();
+        student.readData(2, "anil", 23); // Will update same object
+        // Calculate the result
+        student.computeResult();
+        // Display the student details
+        student.showData();
 
     }
 }

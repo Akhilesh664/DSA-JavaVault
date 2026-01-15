@@ -1,4 +1,4 @@
-package ArrayList;
+package CollectionFramework.ArrayList;
 
 import java.util.*;
 
@@ -39,6 +39,9 @@ public class CollectionsListDemo {
         linkedList.add("Java");
         linkedList.add("DSA");
         System.out.println("LinkedList: " + linkedList);
+
+        linkedList.set(1, "Python");
+        System.out.println("After set: " + linkedList);
 
         // Add at first and last
         linkedList.addFirst("Hello");

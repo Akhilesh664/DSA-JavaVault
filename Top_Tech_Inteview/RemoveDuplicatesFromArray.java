@@ -4,7 +4,7 @@ import java.util.*;
 
 public class RemoveDuplicatesFromArray {
 
-    // 1 Way.
+    // 1 Way. Time complexity: O(n)
 //    public static void main(String[] args) {
 //        int[] arr = {2, 3, 4, 2, 6, 1, 8, 8, 4};
 //        Set<Integer> set = new LinkedHashSet<>();

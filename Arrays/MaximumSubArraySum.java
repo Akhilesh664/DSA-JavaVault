@@ -14,14 +14,17 @@ public class MaximumSubArraySum {
 			for(int j = i; j < n; j++) {
 				int sum = 0;
 				for(int k = i; k <= j; k++) {
+					System.out.print( arr[k] + " " );
+
 					sum = sum + arr[k];
 					if(sum > lsf) {
 						lsf = sum;
-//						System.out.println( arr[k] + " " );
 					}
-					
+
 				}
+				System.out.println();
 			}
+			System.out.println();
 		}
 		
 		System.out.print("Maximum SubArraySum (lsf) : "+lsf);

@@ -1,4 +1,5 @@
 // 1st cdac java 2 assignment
+// Base class for SavingAccount and CheckingAccount
 
 package Practise2;
 
@@ -44,11 +45,11 @@ public class BankAccount {
     }
 
 
-//    public static void main(String[] args) {
-//        BankAccount ba = new BankAccount();
-//        ba.setAccountNumber("ai0011");
-//        System.out.println(ba.getAccountNumber());
-//
-//    }
+    public static void main(String[] args) {
+        BankAccount ba = new BankAccount();
+        ba.setAccountNumber("ai0011");
+        System.out.println(ba.getAccountNumber());
+
+    }
 
 }

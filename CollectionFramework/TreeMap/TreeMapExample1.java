@@ -1,4 +1,4 @@
-package TreeMap;
+package CollectionFramework.TreeMap;
 
 //💡 TreeMap (Sorted Key-Value Storage) maintains the keys in sorted order (O(log n) operations).
 

@@ -1,4 +1,4 @@
-package LinkedHashMap;
+package CollectionFramework.LinkedHashMap;
 
 import java.util.*;
 
@@ -17,7 +17,7 @@ public class LinkedHasMapExample2 {
         products.entrySet()
                 .stream()
                 .sorted(Map.Entry.comparingByValue())
-                .forEach(entry -> System.out.println(entry.getKey() + " -> ₹" + entry.getValue()));
+                .forEach(entry -> System.out.println(entry.getKey() + " ->₹" + entry.getValue()));
 
     }
 }

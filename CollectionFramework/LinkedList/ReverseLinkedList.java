@@ -1,4 +1,4 @@
-package LinkedList;
+package CollectionFramework.LinkedList;
 
 // 💡 LinkedList is a doubly linked list implementation that provides efficient insertions and deletions (O(1) at head/tail), but slower random access (O(n)).
 

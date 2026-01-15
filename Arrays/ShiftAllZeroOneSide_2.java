@@ -5,14 +5,14 @@ package Arrays;
 
 public class ShiftAllZeroOneSide_2 {
 
-//  Approach - 1
+//  Approach - 1 best[fast - O(n)]
 //
 //	public static void main(String[] args) {
 //		
 //		int[] arr = {1, 0, 0, 13, 0, 70, 0};
 //		int n = arr.length;
 //		
-//		int j = 0;// fixing values in same array
+//		int j = 0; // fixing values in same array
 //		for(int i = 0; i < n; i++) {
 //			if(arr[i] != 0) {
 //				arr[j] = arr[i];
@@ -20,24 +20,25 @@ public class ShiftAllZeroOneSide_2 {
 //			}		
 //		}
 //		
-//		while(j<n) {
+//		while(j < n) {
 //			arr[j] = 0;
 //			j++;
 //		}
 //		
-//		for(int num: arr) {
+//		for(int num : arr) {
 //			System.out.print(num+" ");
 //		}
 // 	}
-	
-//  Approach - 2
+
+
+//  Approach - 2 [Slower - O(n)]
 	public static void main(String[] args) {
 		
 		int[] arr = {1, 0, 0, 13, 0, 70, 0};
 		int n = arr.length;
 		
-		int j = -1;// fixing values in same array
-		for(int i=1; i<n; i++) {
+		int j = -1; // fixing values in same array
+		for(int i = 1; i < n; i++) {
 			if(arr[i] == 0) {
 				j = i;
 				break;

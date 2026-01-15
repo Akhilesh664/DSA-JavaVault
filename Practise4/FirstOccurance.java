@@ -17,6 +17,7 @@ public class FirstOccurance {
 		for(int i=0; i<n; i++) {
 			arr[i] = s.nextInt();
 		}
+
 		// Enter target for array 
 		System.out.println("Enter the target for first Occurance");
 		int target = s.nextInt();

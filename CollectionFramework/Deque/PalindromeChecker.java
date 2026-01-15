@@ -1,4 +1,4 @@
-package Deque;
+package CollectionFramework.Deque;
 
 import java.util.*;
 

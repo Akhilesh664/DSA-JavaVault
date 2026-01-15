@@ -1,4 +1,4 @@
-package TreeSet;
+package CollectionFramework.TreeSet;
 
 // 💡 TreeSet stores unique elements in sorted order using a Red-Black Tree, providing O(log n) performance for insertions, deletions, and lookups.
 

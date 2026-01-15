@@ -1,4 +1,4 @@
-// O(3*n) : Time complexity [n * n * n : 3n]  
+// O(3*n) : Time complexity [n + n + n : 3n]
 // O(n) : [Space complexity to store n nonzero elements in brr[]]
 
 package Arrays;

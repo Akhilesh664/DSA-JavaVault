@@ -2,6 +2,21 @@ package Practise1;
 
 import java.util.Scanner;
 
+/**
+ * ElectricityBill.java
+ * 
+ * This class calculates electricity bills based on consumption units.
+ * It demonstrates user input handling, conditional logic, and method implementation.
+ * 
+ * This is a standalone class in the Practise1 package and doesn't have any direct
+ * relationships with other classes in the package.
+ * 
+ * Features:
+ * - Takes customer details and units consumed as input
+ * - Calculates bill based on a tiered pricing structure
+ * - Provides methods to read input, calculate bill, and display results
+ * - Includes input validation and error handling
+ */
 public class ElectricityBill {
     int customerNumber;
     String name;

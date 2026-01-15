@@ -1,4 +1,4 @@
-package LinkedList;
+package CollectionFramework.LinkedList;
 
 class Node {
     int data;

@@ -2,6 +2,21 @@ package Practise1;
 
 import java.util.Scanner;
 
+/**
+ * Emp.java
+ * 
+ * This class represents an Employee with basic information and display functionality.
+ * It demonstrates user input handling, object creation, and method implementation.
+ * 
+ * This is a standalone class in the Practise1 package and doesn't have any direct
+ * relationships with other classes in the package.
+ * 
+ * Features:
+ * - Manages employee details: ID, name, designation, department, and salary
+ * - Provides methods to read employee data and display it
+ * - Includes a main method for demonstration purposes
+ * - Uses Scanner for user input
+ */
 public class Emp {
 
     int empNo;

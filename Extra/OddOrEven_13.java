@@ -13,9 +13,9 @@ public class OddOrEven_13
 			System.out.println("Enter value for check odd or even : ");
 			x = s.nextLong();
 		
-			if(x%2 == 0) 
+			if(x%2 == 0)
 			{
-				System.out.println("Number is even number");
+				System.out.println("Number is Even number");
 			}else
 			{
 				System.out.println("Number is Odd number");

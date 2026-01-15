@@ -1,44 +1,86 @@
 package LinkedList;
 
-public class CreateLinkedList {
 
-    //LinkedList Node
-    static class Node{
-        int data;   //stores data
-        Node next;  //address of next node
+//LinkedList Node1
+class Node1{
+    int data;   //stores data
+    Node1 next;  //address of next Node1
 
-        // Constructor to create a new node
-        Node(int data){
-            this.data= data;
-        }
+    // Constructor to create a new Node1
+    Node1(int data){
+        this.data= data;
     }
 
-    public static void main(String[] args) {
-
-        // creating new nodes
-        Node a= new Node(1);
-        Node b= new Node(2);
-        Node c= new Node(3);
-        Node d= new Node(4);
-        Node e= new Node(5);
-        Node f= new Node(6);
-
-        // implementing linkedlist by connecting nodes through address
-        a.next= b;
-        b.next= c;
-        c.next= d;
-        d.next= e;
-        e.next= f;
-        f.next= null;
-
-        //printing data of each node of the linkedlist
-        System.out.println(a.data + " " + b.data + " " + c.data + " " + d.data + " " + e.data + " " + f.data);
-
-        Node temp = a;
-        while (temp != null) {
-            System.out.print(temp.data + " ");
+    // printing values / Traverse
+    public static void display(Node1 head){
+        Node1 temp = head;
+            while(temp != null){
+            System.out.println(temp.data);
             temp = temp.next;
         }
+        System.out.println("------------");
+    }
+
+    public static void displayRec(Node1 head){
+        if(head == null){
+            return;
+        }
+        System.out.println(head.data);
+        displayRec(head.next);
+
+    }
+
+    public static int getElement(Node1 head, int index){
+        Node1 temp = head;
+        for(int i = 1; i <= index; i++){
+            temp = temp.next;
+        }
+        return temp.data;
+    }
+}
+
+public class CreateLinkedList {
+    public static void main(String[] args) {
+        System.out.println("Try programiz.pro");
+
+        Node1 a = new Node1(1); // Head Node1
+        Node1 b = new Node1(2);
+        Node1 c = new Node1(3);
+        Node1 d = new Node1(4);
+        Node1 e = new Node1(5);
+
+        // connecting Node1 to other
+        a.next = b;
+        b.next = c;
+        c.next = d;
+        d.next = e;
+        e.next = null; // opptional
+
+        System.out.println(a); // print a means its refrence address
+        System.out.println(b); // print a means its refrence address
+        System.out.println(c); // print a means its refrence address
+        System.out.println(d); // print a means its refrence address
+
+
+        System.out.println("--------------");
+
+
+        // option for traverse [NOT recommended]
+        System.out.println(a.data);
+        System.out.println(a.next.data);
+        System.out.println(a.next.next.data);
+        System.out.println(a.next.next.next.data);
+        System.out.println(a.next.next.next.next.data);
+
+        System.out.println("--------------");
+
+        Node1.display(a);
+        Node1.displayRec(a);
+        System.out.println("--------------");
+        Node1 head = a;
+        int index = 3;
+        System.out.println("Element at "+ index + " is " +Node1.getElement(head, index));
+
     }
 
 }

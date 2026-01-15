@@ -1,5 +1,5 @@
 // 6th cdac java assignment 3
-
+// Extends Employee. Represents an employee with a fixed salary. Used by Company and Payroll
 package Practise3;
 
 public class SalariedEmployee extends Employee{

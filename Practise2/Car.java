@@ -5,7 +5,8 @@ public class Car {
     public Car() {
     }
 
-    void speed(){
+    void speed()
+    {
         System.out.println("speed : 0 km/h or parked");
     }
 }

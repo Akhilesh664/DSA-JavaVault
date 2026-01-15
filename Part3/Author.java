@@ -10,7 +10,8 @@ public class Author {
         this.email = email;
     }
 
-    void displayDetails() {
+    void displayDetails()
+    {
         System.out.println("Author Name: " + name + ", Email: " + email);
     }
 

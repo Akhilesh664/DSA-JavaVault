@@ -1,4 +1,4 @@
-package HashMap;
+package CollectionFramework.HashMap;
 
 //💡 HashMap (Unordered Key-Value Storage) provides constant-time performance (O(1)) for operations like put(), get(), and remove(), but it does not maintain any order.
 

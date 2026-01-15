@@ -1,9 +1,10 @@
-package LinkedListAsQueue;
+package CollectionFramework.LinkedListAsQueue;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class ReverseQueue {
+
     public static void reverse(Queue<Integer> queue) {
 
         if (queue.isEmpty()){
@@ -14,7 +15,7 @@ public class ReverseQueue {
         queue.offer(front);
     }
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 
         Queue<Integer> queue = new LinkedList<>();
         queue.offer(1);

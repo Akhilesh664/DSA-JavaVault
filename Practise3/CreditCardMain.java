@@ -1,5 +1,6 @@
 package Practise3;
 
+// Demonstrates the CreditCard interface implementation with BankAccount
 public class CreditCardMain {
 
     public static void main(String[] args) {

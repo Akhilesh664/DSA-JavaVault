@@ -1,4 +1,4 @@
-package LinkedHashMap;
+package CollectionFramework.LinkedHashMap;
 
 //💡 LinkedHashMap (Maintains Insertion Order) maintains the order of insertion while providing O(1) operations.
 

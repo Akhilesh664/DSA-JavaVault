@@ -5,7 +5,7 @@ package String;
 // Output: 2 // 'v' is the first non-repeating character
 // by using frq array freq[256]
 
-public class FirstNonRepeatingCharInString {
+class freFirstNonRepeatingCharInString {
     public static void main(String[] args) {
         // Test firstNonRepeatingChar
         String nonRepeatingInput = "swiss";

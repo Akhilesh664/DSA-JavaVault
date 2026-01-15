@@ -1,4 +1,5 @@
 // 6th cdac java assignment 3
+// Extends Employee. Represents an employee paid by the hour. Used by Company and Payroll
 
 package Practise3;
 

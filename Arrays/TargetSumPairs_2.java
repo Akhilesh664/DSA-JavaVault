@@ -25,7 +25,7 @@ public class TargetSumPairs_2 {
 				j--;
 			}
 			else if(arr[i] + arr[j] < T) {
-				j++;
+				i++;
 			}
 		}
 		

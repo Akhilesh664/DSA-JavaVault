@@ -1,4 +1,4 @@
-package Stack;
+package CollectionFramework.Stack;
 
 // 💡 Stack is a Last-In-First-Out (LIFO) data structure extending Vector, with push(), pop(), and peek() operations in O(1) time.
 

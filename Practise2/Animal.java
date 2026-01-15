@@ -1,5 +1,6 @@
 package Practise2;
 
+// Parent class for Dog and Cat. Used by animalMain
 public class Animal {
 
     public Animal() {

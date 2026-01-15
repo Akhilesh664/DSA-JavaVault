@@ -1,4 +1,4 @@
-package Vector;
+package CollectionFramework.Vector;
 
 // 💡 Vector is a thread-safe resizable array implementation similar to ArrayList, but with synchronized methods, making it slower in single-threaded environments.
 
